@@ -1,4 +1,4 @@
-## Express And Sequalize
+## Express And Sequelize
 
 ---
 
