@@ -1,0 +1,22 @@
+{
+  "name": "express_sequalize",
+  "version": "1.0.0",
+  "description": "Express Js And Sequalize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudek-igor/Express_Sequalize.git"
+  },
+  "author": "Igor Dudek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudek-igor/Express_Sequalize/issues"
+  },
+  "homepage": "https://github.com/dudek-igor/Express_Sequalize#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
