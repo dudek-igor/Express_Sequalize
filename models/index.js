@@ -2,6 +2,6 @@
 const User = require('./User');
 
 // Exports Models
-module.exports = {
-  User,
+module.exports = (sequelize) => {
+  User(sequelize);
 };
