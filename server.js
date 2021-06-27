@@ -1,13 +1,11 @@
 const express = require('express');
-const { sequelize } = require('./services');
-
-const app = express();
+const appRouter = require('./routes');
 const PORT = process.env.PORT || 8083;
-
-// HomePage
-app.use('/', (req, res) => {
-  res.json({ status: 'success' });
-});
+const app = express();
+// Body Parser
+app.use(express.json());
+// Routers
+app.use('/', appRouter);
 
 // Mount Http Server
 app.listen(PORT, () => {

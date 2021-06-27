@@ -13,8 +13,8 @@ sequelize
   .catch(() => console.error('Unable to connect to the database:'));
 
 // Import Models
-require('../models')(sequelize);
+// require('../models')(sequelize);
 
-sequelize.sync({ alter: true });
+// (async () => await sequelize.sync({ alter: true }))();
 
 module.exports = sequelize;

@@ -1,7 +1,9 @@
 // Import All Models
-const User = require('./User');
+const usersBackoffice = require('./Users_Backoffice');
+const usersShop = require('./Users_Shop');
 
 // Exports Models
-module.exports = (sequelize) => {
-  User(sequelize);
+module.exports = {
+  usersBackoffice,
+  usersShop,
 };
